@@ -1,0 +1,67 @@
+
+
+Serenity OAtuh Server (SOS)
+---------------------------
+
+Enviarán SOS - Manual
+
+
+
+Mobile device Services
+----------------------
+Autenticacion Basado en Movil,	Huella mayoritariamente
+
+	Firma y Autenticacion
+
+
+Session Manager
+--------------
+
+Micro servicio sencillo, de contrlol de sesiones
+
+
+Security Token Service
+----------------------
+
+transforma tokens entre token corporativos y tokens Phoenix
+
+
+User Data SErvice
+-----------------
+
+Pensado para solicitar datos adiciones de LDAP de un usuario.
+
+
+Security SRV Keymanager
+-----------------------
+Servidor de claves publicas eb PaaS
+
+
+
+
+Mobile device Services
+----------------------
+
+Generador de FootPrint
+Generador de claves Asimetricas
+Generador del pair de claves
+
+link Git,
+link Binarios
+link portal Serenity
+links de documentacion de las apis
+
+SOS
+--------------------------------------------------------------------------------------------------------------------
+1.	Get Token
+2.	Check Token
+3.	Revocation Token
+
+Scope, permisos que se da al token sobre los recursos solicitados
+Ckeck Token cambia a Introspec
+
+ROP, Resource Owner Partner -> no muy seguro, se envía usuario y password en claro
+
+Client Credencials -> El cliente solicita un Access token con sus credenciales
+Resource Owner Token Credentials -> se solicita un token Access con un token BKS
+Api de consentimientos -> Gestion por parte del usuario de los consentimientos que ha dado a un cliente.
